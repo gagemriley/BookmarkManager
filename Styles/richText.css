@@ -1,0 +1,123 @@
+﻿#richTextEditor {
+    width: 100%;
+}
+
+/* Toolbar */
+
+#richTextEditor .toolbar {
+    list-style: none;
+    margin: 0;
+    padding: 0.2em;
+}
+
+#richTextEditor .toolbar::before, #richTextEditor .toolbar::after {
+    content: " ";
+    display: table;
+    border-collapse: collapse;
+}
+
+#richTextEditor .toolbar::after {
+    clear: both;
+}
+
+#richTextEditor .toolbar li {
+    float: left;
+    padding: 0 0.1em;
+}
+
+/* Toolbar buttons */
+
+#richTextEditor .toolbar .richText-button {
+    height: 1.6em;
+    width: 1.6em;
+    padding: 0;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    transition: 0.2s;
+}
+
+#richTextEditor .toolbar .richText-button:hover {
+    background-color: rgb(0, 200, 200);
+    transition: 0.2s;
+}
+
+#richTextEditor .toolbar .richText-button.active {
+    background-color: rgb(0, 127, 127);
+    transition: 0.2s;
+}
+
+#richTextEditor .richText-bold {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#richTextEditor .richText-italic {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#richTextEditor .richText-underline {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+/* Tooltips */
+
+/*.ui-tooltip.richText-tooltip, .arrow:after {
+    background: black;
+    background-color: rgba(0, 0, 0, 0.8);
+}*/
+
+.ui-tooltip.richText-tooltip {
+    background: black;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    padding: 0.2em 0.4em;
+    color: white;
+    font: bold 0.6em "Helvetica Neue", Sans-Serif;
+}
+
+/*.richText-tooltip .arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+}
+
+.richText-tooltip .arrow.top {
+    top: -16px;
+    bottom: auto;
+}
+
+.richText-tooltip .arrow.left {
+    left: 20%;
+}
+
+.richText-tooltip .arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.richText-tooltip .arrow.top:after {
+    bottom: -25px;
+    top: auto;
+}*/
+
+/* Textarea */
+
+#richTextEditor textarea {
+    display: block;
+    margin-top: 10px;
+}

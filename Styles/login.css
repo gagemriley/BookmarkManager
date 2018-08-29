@@ -1,0 +1,13 @@
+﻿table#login {
+    width: 100%;
+    padding: 10px;
+}
+
+table#login tbody tr td:first-child {
+    width: 20%;
+}
+
+#LoginSubmit {
+    font-weight: bold;
+    font-size: 1em;
+}

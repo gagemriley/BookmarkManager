@@ -1,0 +1,102 @@
+body {
+	min-width: 710px;
+	min-height: 500px;
+}
+
+.pagelet {
+	display: inline-block;
+	width: 30%;
+	position: absolute;
+	top: 20px;
+	bottom: 20px;
+}
+
+.pagelet.left {
+	left: 20px;
+}
+
+.pagelet.center {
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.pagelet.right {
+	right: 20px;
+}
+
+.sub-pagelet {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.sub-pagelet.top {
+	bottom: 50%;
+}
+
+.sub-pagelet.bottom {
+	top: 50%;
+}
+
+h2 {
+	margin: 0;
+	position: absolute;
+	top: 0.25em;
+	left: 0;
+	right: 0;
+	height: 1em;
+}
+
+.content {
+	margin: 0;
+	padding: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset;
+	overflow-y: auto;
+	position: absolute;
+	top: 2.5em;
+	bottom: 0.5em;
+	left: 10px;
+	right: 10px;
+}
+
+table {
+    border: rgba(0, 0, 0, 0);
+}
+
+td {
+    padding: 0;
+}
+
+a.bookmark, a.document {
+	text-decoration: none;
+	text-align: left;
+	padding: 2px;
+	line-height: 1.4;
+	display: block;
+	margin: 3px 0;
+    vertical-align: middle;
+}
+
+a.bookmark img, a.document img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+div.buttons {
+	height: 1.5em;
+	width: fit-content;
+	margin: 0.5em 0.5em auto auto;
+}
+
+div.buttons button {
+	height: 100%;
+    padding: initial;
+}
+
+#GV_EditFav tr td:last-child, #GV_EditPolicy tr td:last-child {
+    width: 1%;
+    white-space: nowrap;
+}

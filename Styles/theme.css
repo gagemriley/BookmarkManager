@@ -1,0 +1,108 @@
+/* Basic backgrouind and text colors */
+
+.main-bg {
+	background-color: white;
+}
+
+.primary-bg {
+	background-color: #0055a5; /*rgb(0, 85, 165);*/
+	color: white;
+}
+
+.secondary-bg {
+	background-color: #0c3b78; /*rgb(12, 59, 120);*/
+	color: white;
+}
+
+.secondary-bg.alt {
+    background-color: #072246;
+}
+
+.tertiary-bg {
+	background-color: #d3d3d3; /*rgb(211, 211, 211) lightgray;*/
+}
+
+.dropdown-content {
+	background-color: #efefef;
+}
+
+.dropdown-content .dropdown-item:hover {
+	background-color: #cdcdcd;
+	transition: 0.2s;
+}
+
+/* Style rules for hoverable elements */
+
+.primary-bg.hoverable:hover, .primary-bg.hoverable:focus {
+	background-color: #004494;
+	color: #eee;
+	transition: 0.2s;
+}
+
+.secondary-bg.hoverable:hover, .secondary-bg.hoverable:focus {
+	background-color: #0b2a67;
+	color: #eee;
+	transition: 0.2s;
+}
+
+.tertiary-bg.hoverable:hover, .tertiary-bg.hoverable:focus {
+	background-color: #c2c2c2;
+	transition: 0.2s;
+}
+
+/* Style rules for selected elements */
+
+.select-radio .primary-bg.selectable.selected, .select-checkbox .primary-bg.selectable.selected {
+	background-color: #1166b6;
+}
+
+.select-radio .secondary-bg.selectable.selected, .select-checkbox .secondary-bg.selectable.selected {
+	background-color: #1d4c89;
+}
+
+.select-radio .tertiary-bg.selectable.selected, .select-checkbox .tertiary-bg.selectable.selected {
+	background-color: #e4e4e4;
+}
+
+.select-radio .selectable.selected, .select-checkbox .selectable.selected {
+	border-left: 8px solid #ffc600;
+	border-right: 8px solid #ffc600;
+}
+
+/* Pagelet borders */
+
+.pagelet {
+	border-width: 2px 0;
+	border-style: solid;
+	border-color: #ffc600;
+}
+
+/* Button styling rules */
+
+.themedButton, .themedButton:hover, .themedButton:focus {
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: #a3a3a3;
+}
+
+.themedButton, .themedButton.disabled:hover, .themedButton.disabled:focus, .themedButton.disabled:active {
+	background-color: #006dee;
+	color: #fff;
+	border: 1px solid #002cee;
+	box-shadow: 0 4px #999;
+}
+
+.themedButton:hover:not(.disabled), .themedButton:focus:not(.disabled) {
+	background-color: #005cdd;
+	color: #eee;
+	border: 1px solid #002cee;
+	transition: 0.2s;
+}
+
+.themedButton:active:not(.disabled) {
+	background-color: #005cdd;
+	color: #eee;
+	border: 1px solid #ffc600;
+	box-shadow: 0 2px #666;
+	transform: translateY(2px);
+}

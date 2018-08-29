@@ -1,0 +1,70 @@
+body {
+	min-width: 875px;
+}
+
+div#tabs {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	right: 20px;
+}
+
+/* The extra bits are necessary in order to override the default jQuery style */
+/*ul.ui-tabs-nav li.ui-tabs-tab a.ui-tabs-anchor {
+	padding: 0.3em 1em;
+}*/
+
+a.ui-tabs-anchor {
+    padding: 0.3em 1em !important;
+}
+
+h2 {
+	text-align: left;
+	margin: auto;
+}
+
+div#tabs table {
+	width: 100%;
+	overflow-y: auto;
+	margin: 10px auto;
+	border-collapse: collapse;
+}
+
+th {
+	padding: 0.3em 1em;
+	font-size: 1.1em;
+}
+
+td {
+	padding: 0.3em 0.5em;
+}
+
+div.tableFooter {
+	margin: 10px auto;
+	border-radius: 3px;
+}
+
+button.ui-button:not(.ui-widget) {
+	display: inline-block;
+	margin: 5px 10px 9px;
+}
+
+div#tabs table.pagelet .ui-icon {
+    margin-top: -0.3em;
+    position: relative;
+}
+
+.ui-icon.ui-icon-help {
+    color: silver;
+    left: 1em;
+}
+
+.ui-icon.ui-icon-lock {
+    color: lightblue;
+    right: 0.25em;
+}
+
+.ui-icon.ui-icon-user {
+    color: yellow;
+    right: 0.25em;
+}
