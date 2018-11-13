@@ -7,8 +7,11 @@ An application that allows users to add/edit/delete bookmarks from their own per
 
 ## Objectives:
 :white_check_mark: Communicate with a client to develop an application.
+
 :white_check_mark: Practice development in a team.
+
 :white_check_mark: Practice using the SCRUM framework.
+
 :white_check_mark: Practice database design & database connections.
 
 ## Summary: 
